@@ -21,7 +21,7 @@ README.md: guessinggame.sh
 	# add the date and time of which the make was run
 	echo " Make Date:" date>> README.md
 	# add the number of lines of code contained in guessinggame.sh
-	echo " Number of lines in guessinggame:" date>> README.md
+	echo " Number of lines in guessinggame:">> README.md
 	grep -c '' guessginggame.sh >> README.md
 	
 # remember the clean
